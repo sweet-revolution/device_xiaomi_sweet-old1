@@ -123,7 +123,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlay \
     SettingsProviderOverlaySweet \
     SystemUIOverlaySweet \
-    TelephonyOverlaySweet
+    TelephonyOverlaySweet \
+    NoCutoutOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
