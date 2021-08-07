@@ -1818,6 +1818,7 @@ vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/nfc_nci.nqx.default.hw.so
 vendor/lib/qcrild_librilutils.so
 vendor/lib/qtimutex.so
+vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
@@ -1988,6 +1989,32 @@ vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/ueventd.rc
 
 # Pinned section
+
+# Audio FX modules
+vendor/lib/soundfx/libhwdap.so
+vendor/lib/soundfx/libswgamedap.so
+vendor/lib/soundfx/libswvqe.so
+
+# Media (Dolby)
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/dolby/dax-default.xml
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+-vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
+vendor/lib/libdapparamstorage.so
+vendor/lib/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+
+# Media (stagefright)
+vendor/lib/libdeccfg.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/libstagefright_soft_ac4dec.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/vndk/libstagefright_foundation.so
+vendor/lib/vndk/libstagefright_omx.so
+
 # system_ext
 # From Pixel 4A RP1A.200720.011
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
