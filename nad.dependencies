@@ -7,15 +7,9 @@
   },
   {
    "remote":"github",
-    "repository":"NusantaraROM-Devices/kernel_xiaomi_sweet",
+    "repository":"BayerischeMotorenWerke/kernel_xiaomi_sm6150",
     "target_path":"kernel/xiaomi/sweet",
     "branch":"11"
-  },
-  {
-    "remote":"github",
-    "repository":"BayerischeMotorenWerke/android_hardware_qcom_display",
-    "target_path":"hardware/qcom-caf/sm8150/display",
-    "branch":"11-sm8150"
   },
   {
     "remote":"gitlab",
