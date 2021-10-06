@@ -7,7 +7,7 @@
   },
   {
    "remote":"github",
-    "repository":"BayerischeMotorenWerke/kernel_xiaomi_sm6150",
+    "repository":"NusantaraROM-Devices/kernel_xiaomi_sweet",
     "target_path":"kernel/xiaomi/sweet",
     "branch":"11"
   },
