@@ -9,7 +9,7 @@
    "remote":"github",
     "repository":"NusantaraROM-Devices/kernel_xiaomi_sweet",
     "target_path":"kernel/xiaomi/sweet",
-    "branch":"11"
+    "branch":"miui"
   },
   {
     "remote":"gitlab",
