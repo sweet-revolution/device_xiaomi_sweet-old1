@@ -221,6 +221,9 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-impl
 
 PRODUCT_PACKAGES += \
+    Snap
+
+PRODUCT_PACKAGES += \
     libshim_megvii
 
 PRODUCT_PACKAGES += \
