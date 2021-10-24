@@ -37,4 +37,9 @@
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">4</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">4</integer>
+	
+	<!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+    wifi,cell,location,bt,flashlight,airplane,night,theme,heads_up,hotspot,gaming,screenrecord
+    </string>
 </resources>
